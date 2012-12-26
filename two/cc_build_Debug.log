@@ -1,0 +1,13 @@
+------------------------------  two.pjt - Debug  ------------------------------
+"d:\TI\c5400\cgtools\bin\cl500" -g -q -fr"e:/gitrepo/dsp/two/Debug" -d"_DEBUG" -@"Debug.lkf" "two.asm"
+"two.asm", ERROR!   at line 12: [E0003] Invalid octal constant specified
+			STM #(length-0FA0),AR1
+
+1 Assembly Error, No Assembly Warnings
+
+Errors in Source - Assembler Aborted
+
+"d:\TI\c5400\cgtools\bin\cl500" -g -q -fr"e:/gitrepo/dsp/two/Debug" -d"_DEBUG" -@"Debug.lkf" "vectors.asm"
+
+Build Complete,
+  2 Errors, 0 Warnings, 0 Remarks.
