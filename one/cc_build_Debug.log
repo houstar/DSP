@@ -1,0 +1,10 @@
+------------------------------  one.pjt - Debug  ------------------------------
+"d:\TI\c5400\cgtools\bin\cl500" -g -q -fr"e:/gitrepo/dsp/one/Debug" -d"_DEBUG" -@"Debug.lkf" "one.asm"
+
+"d:\TI\c5400\cgtools\bin\cl500" -g -q -fr"e:/gitrepo/dsp/one/Debug" -d"_DEBUG" -@"Debug.lkf" "vectors.asm"
+
+"d:\TI\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+>> warning: entry point other than _c_int00 specified
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

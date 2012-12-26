@@ -1,0 +1,4 @@
+-z -q -c -m"./Debug/one.map" -o"./Debug/one.out" -x -i"d:/TI/C5400/bios/lib" -i"d:/TI/C5400/dsk5416/lib" -i"d:/TI/c5400/rtdx/lib" -i"d:/TI/c5400/xdais/lib" -i"d:/TI/c5400/cgtools/lib"
+"e:\gitrepo\dsp\one\Debug\one.obj"
+"e:\gitrepo\dsp\one\Debug\vectors.obj"
+"e:\gitrepo\dsp\one\one.cmd"

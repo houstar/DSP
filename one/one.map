@@ -1,0 +1,93 @@
+******************************************************************************
+         TMS320C54x COFF Linker PC Version 3.83                
+******************************************************************************
+>> Linked Wed Dec 26 19:55:43 2012
+
+OUTPUT FILE NAME:   <one.out>
+ENTRY POINT SYMBOL: "start"  address: 00000090
+
+
+MEMORY CONFIGURATION
+
+                  name            origin    length      used    attr    fill
+         ----------------------  --------  ---------  --------  ----  --------
+PAGE  0: VECS                    00000080   00000010  00000002  RWIX
+         EPROM                   00000090   00000f70  0000001c  RWIX
+
+PAGE  1: SPRAM                   00001000   00001000  00000016  RWIX
+         DARAM                   00002000   00002000  00000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.vectors   0    00000080    00000002     
+                  00000080    00000002     vectors.obj (.vectors)
+
+.text      0    00000090    00000018     
+                  00000090    00000018     one.obj (.text)
+
+.data      0    000000a8    00000004     
+                  000000a8    00000004     one.obj (.data)
+
+.bss       1    00001000    00000006     UNINITIALIZED
+                  00001000    00000006     one.obj (.bss)
+
+STACK      1    00001006    00000010     UNINITIALIZED
+                  00001006    00000010     one.obj (STACK)
+
+.STACK     1    00002000    00000000     UNINITIALIZED
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00001000   .bss
+000000a8   .data
+00000090   .text
+00001000   ___bss__
+ffffffff   ___cinit__
+000000a8   ___data__
+000000ac   ___edata__
+00001006   ___end__
+000000a8   ___etext__
+ffffffff   ___pinit__
+00000090   ___text__
+00000000   __lflags
+UNDEFED _c_int00
+ffffffff   cinit
+000000ac   edata
+00001006   end
+000000a8   etext
+ffffffff   pinit
+00000090   start
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   __lflags
+00000090   start
+00000090   ___text__
+00000090   .text
+000000a8   .data
+000000a8   ___etext__
+000000a8   etext
+000000a8   ___data__
+000000ac   ___edata__
+000000ac   edata
+00001000   .bss
+00001000   ___bss__
+00001006   end
+00001006   ___end__
+ffffffff   pinit
+ffffffff   ___pinit__
+ffffffff   ___cinit__
+ffffffff   cinit
+UNDEFED _c_int00
+
+[19 symbols]
